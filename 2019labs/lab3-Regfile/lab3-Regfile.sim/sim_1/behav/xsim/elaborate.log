@@ -1,0 +1,14 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto d826201c27e742c99de3a8f693c96814 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot regfile_test_behav xil_defaultlib.regfile_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Thyolo/Desktop/2019/lab3-Regfile/lab3-Regfile.srcs/sources_1/new/lab3-Regfile.v" Line 1. Module Regfile_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Regfile_default
+Compiling module xil_defaultlib.regfile_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot regfile_test_behav

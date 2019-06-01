@@ -1,0 +1,7 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Thyolo/Desktop/2019/lab3_bit/lab3_bit.srcs/sim_1/new/test.v,1554471852,verilog,,,,FIFO_test,,,../../../../lab3_bit.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Thyolo/Desktop/2019/lab3_bit/lab3_bit.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v,1554480079,verilog,,C:/Users/Thyolo/Desktop/2019/lab3_bit/lab3_bit.srcs/sources_1/new/lab3_bit.v,,clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz;glbl,,,../../../../lab3_bit.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Thyolo/Desktop/2019/lab3_bit/lab3_bit.srcs/sources_1/new/lab3_bit.v,1554480182,verilog,,C:/Users/Thyolo/Desktop/2019/lab3_bit/lab3_bit.srcs/sim_1/new/test.v,,FIFO;seg_ctrl,,,../../../../lab3_bit.srcs/sources_1/ip/clk_wiz_0,,,,,

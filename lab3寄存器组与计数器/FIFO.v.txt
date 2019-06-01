@@ -1,0 +1,16 @@
+module FIFO(en_out, en_in, in, rst, clk, out, empty, full);	input en_out;	input en_in;	input [3:0] in;	input rst;	input clk;	output reg [3:0] out;	output reg empty;	output reg full;		reg [2:0]pw;	reg [2:0]pr;	reg [3:0] regf [7:0];	integer i;
+	
+	
+		reg[2:0] delay1;
+	reg[2:0] delay2;
+	always @ ( posedge clk  )
+	delay1 <= { delay1[1:0], en_out} ;
+	wire pos_enout = delay1[1] && ( ~delay1[2] );     
+	always @ ( posedge clk  )
+	delay2 <= { delay2[1:0], en_in} ;
+	wire pos_enin = delay2[1] && ( ~delay2[2] );  
+	
+	
+	
+	
+		always@(posedge clk or posedge rst) 	begin		if(rst)			for(i=0;i<8;i=i+1)		      begin					regf[i]<=0;					full<=0;					empty<=1;			  end		else			if(en_in)				if(!full==1)				begin				regf[pw]<=in;				pw<=(pw+1)%8;				if((pw+1)==pr)					full<=1;				empty<=0;				end			else if(en_out)				if(!empty==1)				begin				out<=regf[pr];				pr<=(pr+1)%8;				if((pr+1)==pw)					empty<=1;				full<=0;				end	end	endmodule

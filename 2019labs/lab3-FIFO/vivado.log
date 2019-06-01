@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 17 17:15:24 2019
+# Process ID: 5744
+# Current directory: C:/Users/Thyolo/Desktop/2019/lab3-FIFO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8900 C:\Users\Thyolo\Desktop\2019\lab3-FIFO\lab3-FIFO.xpr
+# Log file: C:/Users/Thyolo/Desktop/2019/lab3-FIFO/vivado.log
+# Journal file: C:/Users/Thyolo/Desktop/2019/lab3-FIFO\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Thyolo/Desktop/2019/lab3-FIFO/lab3-FIFO.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 764.398 ; gain = 158.379
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 17 17:16:08 2019...

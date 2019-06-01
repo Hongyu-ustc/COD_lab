@@ -1,0 +1,80 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Apr  5 14:42:02 2019
+| Host         : THYOLOAB39 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Regfile_control_sets_placed.rpt
+| Design       : Regfile
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    64 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      4 |           16 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              64 |           28 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------+------------------+------------------+----------------+
+|  Clock Signal  |    Enable Signal    | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+---------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG | regf[3][3]_i_1_n_0  | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | regf                | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | regf[12][3]_i_1_n_0 | rst_IBUF         |                2 |              4 |
+|  clk_IBUF_BUFG | regf[4][3]_i_1_n_0  | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | regf[9][3]_i_1_n_0  | rst_IBUF         |                3 |              4 |
+|  clk_IBUF_BUFG | regf[1][3]_i_1_n_0  | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | regf[10][3]_i_1_n_0 | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | regf[7][3]_i_1_n_0  | rst_IBUF         |                4 |              4 |
+|  clk_IBUF_BUFG | regf[2][3]_i_1_n_0  | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | regf[8][3]_i_1_n_0  | rst_IBUF         |                4 |              4 |
+|  clk_IBUF_BUFG | regf[13][3]_i_1_n_0 | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | regf[6][3]_i_1_n_0  | rst_IBUF         |                3 |              4 |
+|  clk_IBUF_BUFG | regf[11][3]_i_1_n_0 | rst_IBUF         |                2 |              4 |
+|  clk_IBUF_BUFG | regf[5][3]_i_1_n_0  | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | regf[14][3]_i_1_n_0 | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | regf[0][3]_i_1_n_0  | rst_IBUF         |                1 |              4 |
++----------------+---------------------+------------------+------------------+----------------+
+
+

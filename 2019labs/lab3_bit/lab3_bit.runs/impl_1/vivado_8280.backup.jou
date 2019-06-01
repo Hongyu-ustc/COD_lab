@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Apr  5 20:43:57 2019
+# Process ID: 8280
+# Current directory: C:/Users/Thyolo/Desktop/2019/lab3_bit/lab3_bit.runs/impl_1
+# Command line: vivado.exe -log FIFO.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FIFO.tcl -notrace
+# Log file: C:/Users/Thyolo/Desktop/2019/lab3_bit/lab3_bit.runs/impl_1/FIFO.vdi
+# Journal file: C:/Users/Thyolo/Desktop/2019/lab3_bit/lab3_bit.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source FIFO.tcl -notrace

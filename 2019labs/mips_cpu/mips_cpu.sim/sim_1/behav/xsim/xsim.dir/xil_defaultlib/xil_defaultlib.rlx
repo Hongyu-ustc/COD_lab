@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Thyolo/mips_cpu/mips_cpu.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Thyolo/mips_cpu/mips_cpu.srcs/sim_1/new/cpu_test.v,1558078549,verilog,,,,cpu_test,,,,,,,,
+C:/Users/Thyolo/mips_cpu/mips_cpu.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1557804097,verilog,,C:/Users/Thyolo/mips_cpu/mips_cpu.srcs/sources_1/new/cpu.v,,blk_mem_gen_0,,,,,,,,
+C:/Users/Thyolo/mips_cpu/mips_cpu.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1559225198,verilog,,C:/Users/Thyolo/mips_cpu/mips_cpu.srcs/sources_1/new/cpu.v,,dist_mem_gen_0,,,,,,,,
+C:/Users/Thyolo/mips_cpu/mips_cpu.srcs/sources_1/new/cpu.v,1559225273,verilog,,C:/Users/Thyolo/mips_cpu/mips_cpu.srcs/sim_1/new/cpu_test.v,,ALU;ALU_ctrl;CU;IF;MDR;Mux_1;Mux_2;Mux_3;Mux_4;Mux_5;Mux_6;PC;Regfile;SE;SL_1;SL_2;reg_self;top,,,,,,,,

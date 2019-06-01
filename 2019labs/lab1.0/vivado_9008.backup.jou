@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar 21 09:30:10 2019
+# Process ID: 9008
+# Current directory: C:/Users/Thyolo/Desktop/2019/lab1.0
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1256 C:\Users\Thyolo\Desktop\2019\lab1.0\lab1.0.xpr
+# Log file: C:/Users/Thyolo/Desktop/2019/lab1.0/vivado.log
+# Journal file: C:/Users/Thyolo/Desktop/2019/lab1.0\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Thyolo/Desktop/2019/lab1.0/lab1.0.xpr
+launch_simulation
+source FIB_test.tcl
+close_sim
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reorder_files -front C:/Users/Thyolo/Desktop/2019/lab1.0/lab1.0.srcs/sources_1/new/TOP.v
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+set_property top FIB [current_fileset]
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+launch_simulation
+source FIB_test.tcl
+close_sim
+launch_simulation
+source FIB_test.tcl
+close_sim
+open_run synth_1 -name synth_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+launch_simulation
+source FIB_test.tcl
+close_sim
+open_run synth_1 -name synth_1
+close_design
+launch_simulation
+source FIB_test.tcl
+close_sim
+open_run synth_1 -name synth_1
+close_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+launch_simulation
+launch_simulation
+source FIB_test.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+launch_simulation
+source FIB_test.tcl
+close_sim
+launch_simulation
+source FIB_test.tcl
+close_sim
+close_design
+launch_simulation
+launch_simulation
+launch_simulation
+source FIB_test.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+launch_simulation
+source FIB_test.tcl
+close_sim
+launch_simulation
+source FIB_test.tcl
+set_property top FIB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source FIB.tcl
+set_property top FIB_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+move_files -fileset sim_1 [get_files  C:/Users/Thyolo/Desktop/2019/lab1.0/lab1.0.srcs/sources_1/new/lab1.0]
+close_sim
+close_sim
+move_files [get_files  C:/Users/Thyolo/Desktop/2019/lab1.0/lab1.0.srcs/sources_1/new/lab1.0]
+set_property top Test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source Test.tcl
+close_sim
+launch_simulation
+source Test.tcl
+close_sim
+launch_simulation
+source Test.tcl
+set_property top FIB_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source FIB_test.tcl
+current_sim simulation_15
+close_sim
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+launch_simulation
+launch_simulation
+source FIB_test.tcl
+close_sim
+launch_simulation
+source FIB_test.tcl
+close_sim
+set_property -name {xsim.simulate.runtime} -value {3000ns} -objects [get_filesets sim_1]
+launch_simulation
+source FIB_test.tcl
+save_wave_config {C:/Users/Thyolo/Desktop/2019/lab1.0/FIB_test_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Thyolo/Desktop/2019/lab1.0/FIB_test_behav.wcfg
+set_property xsim.view C:/Users/Thyolo/Desktop/2019/lab1.0/FIB_test_behav.wcfg [get_filesets sim_1]
+close_sim
