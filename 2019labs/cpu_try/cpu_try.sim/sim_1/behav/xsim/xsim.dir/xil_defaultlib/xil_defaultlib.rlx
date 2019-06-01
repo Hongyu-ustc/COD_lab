@@ -1,7 +1,0 @@
-0.6
-2018.3
-Dec  7 2018
-00:33:28
-C:/Users/Thyolo/Desktop/2019/cpu_try/cpu_try.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
-C:/Users/Thyolo/Desktop/2019/cpu_try/cpu_try.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1559228370,verilog,,C:/Users/Thyolo/Desktop/2019/cpu_try/cpu_try.srcs/sources_1/new/cou_try.v,,dist_mem_gen_0,,,,,,,,
-C:/Users/Thyolo/Desktop/2019/cpu_try/cpu_try.srcs/sources_1/new/cou_try.v,1559226738,verilog,,,,ALU;ALU_ctrl;CU;IF;MDR;Mux_1;Mux_2;Mux_3;Mux_4;Mux_5;Mux_6;PC;Regfile;SE;SL_1;SL_2;reg_self;top,,,,,,,,
